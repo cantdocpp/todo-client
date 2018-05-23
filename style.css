@@ -1,0 +1,144 @@
+  .user-icon {
+  font-size: 20pt;
+  position: relative;
+}
+
+.search-icon {
+  font-size: 17pt;
+  margin-top: 10px
+}
+
+.sidebar-header {
+  margin-top: 10px;
+}
+
+#app {
+  margin-left: 15px
+}
+
+.sidebar-header {
+  margin-bottom: 15px;
+  border-bottom: solid 1px #000
+}
+
+.username {
+  position: relative;
+  padding-left: 5x;
+  margin-top: 10px;
+  font-family: Segoe, Segoe UI, arial;
+  font-weight: 200;
+  color: #34373d
+}
+
+.main-header {
+  height: 140px;
+  display: block;
+  background-color: black
+}
+
+.title {
+  color: white;
+  font-family: Segoe,Segoe UI,Arial,"sans-serif";
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: -.34px;
+  padding-top: 80px;
+  padding-left: 20px
+}
+
+.logo-task {
+  font-size: 20pt;
+  margin-bottom: 20px
+}
+
+.text {
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: Segoe,Segoe UI,Arial,"sans-serif";
+  font-weight: 100
+}
+
+a {
+  list-style: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.todo-create {
+  width: 50%;
+  height: 35px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px black
+}
+
+.thetask {
+  font-size: 20px;
+  margin-top: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: ridge 1px black
+}
+
+#showtask {
+  text-align: center;
+  padding-top: 150px;
+  font-weight: 1;
+  color: grey
+}
+
+.trash-logo {
+  float: right
+}
+
+.edit-logo {
+  float: right
+}
+
+.complete {
+  float: right;
+  padding-top: 0
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-top: 10px
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
